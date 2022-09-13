@@ -14,4 +14,12 @@ public class Employee {
     private int yearsOfService;
     private String specialties;
 
+    public Employee(){
+        this.yearsOfService = 0;
+        this.salary = 1500;
+        this.department = "A38";
+        //Alle anderen Attribute/Referenzen erhalten ihren Nullwert.
+
+
+    }
 }
