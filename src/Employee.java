@@ -1,20 +1,17 @@
 public class Employee {
 
-    private int dienstjahre;
-    private double bruttogehalt;
-    private String abteilung;
+    private String name;
+    private String forename;
+    private String birthdate;
 
-    public Employee(int d, double b, String a){
-        dienstjahre = d;
-        bruttogehalt = b;
-        abteilung = a;
-    }
+    private char gender;
+    private int age;
+    private double weight;
 
-    public int getDienstjahre(){return dienstjahre;}
+    private String department;
+    private double salary;
 
-    public double getBruttogehalt(){return bruttogehalt;}
-
-    public String getAbteilung(){return abteilung;}
-
+    private int yearsOfService;
+    private String specialties;
 
 }
